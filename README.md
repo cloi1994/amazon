@@ -4,6 +4,7 @@
 |-------------|:-----:| :-----: | :-----: |
 |2	Add Two Numbers | |
 |7	Reverse Integer |[py](https://github.com/cloi1994/amazon/blob/master/code/7.py) | res = 10 * res + x % 10
+|9	Palindrome Number | [py](https://github.com/cloi1994/amazon/blob/master/code/9.py)| res = 10 * res + x % 10	
 
 ## Two Pointer
 
@@ -12,7 +13,7 @@
 |1	Two Sum |[py](https://github.com/cloi1994/amazon/blob/master/code/1.py) | HashMap , Sorted Two Pointer
 |3	Longest Substring Without Repeating Characters | [py](https://github.com/cloi1994/amazon/blob/master/code/3.py)|
 |11	Container With Most Water |[py](https://github.com/cloi1994/amazon/blob/master/code/11.py) |
-|9	Palindrome Number | [py](https://github.com/cloi1994/amazon/blob/master/code/9.py)|
+
 
 
 ## Memo
