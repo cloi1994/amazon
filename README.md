@@ -2,7 +2,7 @@
 
 | Title  | Solution  | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|2	Add Two Numbers |[py](https://github.com/cloi1994/amazon/blob/master/code/2.py) |
+|2	Add Two Numbers | |
 |7	Reverse Integer |[py](https://github.com/cloi1994/amazon/blob/master/code/7.py) | res = 10 * res + x % 10
 
 ## Two Pointer
@@ -28,4 +28,4 @@
 
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|20	Valid Parentheses |[py](https://github.com/cloi1994/amazon/blob/master/code/20.py) | push if '(' <br> pop if ')' | counter++ if '(' <br> counter-- if '('
+|20	Valid Parentheses | | push if '(' <br> pop if ')' | counter++ if '(' <br> counter-- if '('
