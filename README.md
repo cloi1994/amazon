@@ -2,7 +2,7 @@
 
 | Title  | Solution  | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|2	Add Two Numbers | | while l1 or l2 or carry
+|2	Add Two Numbers | | while L1 or L2 or carry
 |7	Reverse Integer |[py](https://github.com/cloi1994/amazon/blob/master/code/7.py) | res = 10 * res + x % 10
 |9	Palindrome Number | [py](https://github.com/cloi1994/amazon/blob/master/code/9.py)| res = 10 * res + x % 10	
 
@@ -11,8 +11,8 @@
 | Title  | Solution  | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |1	Two Sum |[py](https://github.com/cloi1994/amazon/blob/master/code/1.py) | HashMap , Sorted Two Pointer
-|3	Longest Substring Without Repeating Characters | [py](https://github.com/cloi1994/amazon/blob/master/code/3.py)|
-|11	Container With Most Water |[py](https://github.com/cloi1994/amazon/blob/master/code/11.py) |
+|3	Longest Substring Without Repeating Characters | [py](https://github.com/cloi1994/amazon/blob/master/code/3.py)| before put a ele in set <br> clear all char ahead that and delete that ele.
+|11	Container With Most Water |[py](https://github.com/cloi1994/amazon/blob/master/code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 
 
 
