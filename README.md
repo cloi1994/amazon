@@ -5,6 +5,8 @@
 |2	Add Two Numbers | | while L1 or L2 or carry
 |7	Reverse Integer |[py](https://github.com/cloi1994/amazon/blob/master/code/7.py) | res = 10 * res + x % 10
 |9	Palindrome Number | [py](https://github.com/cloi1994/amazon/blob/master/code/9.py)| res = 10 * res + x % 10	
+|168 Excel Sheet Column Title | [py](https://github.com/cloi1994/amazon/blob/master/code/168.py)| 10 to 26	
+|171 Excel Sheet Column Number | [py](https://github.com/cloi1994/amazon/blob/master/code/171.py)| 26 to 10	
 
 ## Two Pointer
 
