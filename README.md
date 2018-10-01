@@ -3,13 +3,13 @@
 | Title  | Solution | Note |
 |-------------|:-----:| :-----: |
 |2	Add Two Numbers | |
-|7	Reverse Integer | |
+|7	Reverse Integer | | res = 10 * res + x % 10
 
 ## Two Pointer
 
 | Title  | Solution | Note |
 |-------------|:-----:| :-----: |
-|1	Two Sum | | |
+|1	Two Sum | | HashMap , Sorted Two Pointer
 |3	Longest Substring Without Repeating Characters | |
 |11	Container With Most Water | |
 |9	Palindrome Number | |
