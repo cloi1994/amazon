@@ -28,4 +28,4 @@
 
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|20	Valid Parentheses |[py](https://github.com/cloi1994/amazon/blob/master/code/20.py) | push if '(' <br> pop if ')' and check if valid | counter++ if '(' <br> counter-- if '('
+|20	Valid Parentheses |[py](https://github.com/cloi1994/amazon/blob/master/code/20.py) | push if '(' <br> pop if ')' | counter++ if '(' <br> counter-- if '('
