@@ -28,5 +28,4 @@
 
 | Title  | Solution | Note |
 |-------------|:-----:| :-----: |
-|4	Median of Two Sorted Arrays | | |
 |20	Valid Parentheses | |
