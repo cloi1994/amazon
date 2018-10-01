@@ -19,7 +19,7 @@
 
 | Title  | Solution | Note |
 |-------------|:-----:| :-----: |
-|4	Median of Two Sorted Arrays | | left = 0, right = n1 \\ cut1 = left + (right - left) // 2 \\ cut2 = (n1+n2) / 2 - cut1
+|4	Median of Two Sorted Arrays | | left = 0, right = n1 <br> cut1 = left + (right - left) // 2 \\ cut2 = (n1+n2) / 2 - cut1
 |146	LRU Cache | |
 |13	Roman to Integer | |
  
