@@ -1,13 +1,13 @@
 # Table of Contents
-1. [Memo](#Memo)
-2. [Easy](#Easy)
-3. [Binary Search](#Binary Search)
-4. [Binary Tree](#Binary Tree)
+1. [Memo](#memo)
+2. [Easy](#easy)
+3. [Binary Search](#Binary-Search)
+4. [Binary Tree](#Binary-Tree)
 5. [BFS](#BFS)
 6. [DFS](#tDFS)
 7. [Stack](#Stack)
 
-## Memo
+## Memo  <a name="memo"></a>
 
 | Title  | Solution  | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
