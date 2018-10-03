@@ -44,7 +44,7 @@
 ## Binary Tree
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|298	Binary Tree Longest Consecutive Sequence |[py](https://github.com/cloi1994/amazon/blob/master/code/298.py) | if root.val == expect: <br> curLen+1 else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
+|298	Binary Tree Longest Consecutive Sequence |[py](https://github.com/cloi1994/amazon/blob/master/code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
 
 
 
