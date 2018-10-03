@@ -16,7 +16,14 @@
 |3	Longest Substring Without Repeating Characters | [py](https://github.com/cloi1994/amazon/blob/master/code/3.py)| before put a ele in set <br> clear all char ahead that and delete that ele.
 |11	Container With Most Water |[py](https://github.com/cloi1994/amazon/blob/master/code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 
+## Binary Search
 
+
+| Title  | Solution | S1 | S2
+|-------------|:-----:| :-----: | :-----: |
+|35	Search Insert Position | [py](https://github.com/cloi1994/amazon/blob/master/code/35.py)|  while i < j : <br> j = mid
+|350 Intersection of Two Arrays II | | sorted num1 and binary search num1 <br> del num1 visited | if all sorted <br> binary search largest one
+|33 Search in Rotated Sorted Array |[py](https://github.com/cloi1994/amazon/blob/master/code/33.py) | left half sorted : if nums[mid] >= nums[i]: <br> else right half sorted or one element left
 
 ## Memo
 
