@@ -56,7 +56,7 @@
 ## DFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|200 Number of Islands | [py](code/675.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
+|200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
 
 
 ## Stack
