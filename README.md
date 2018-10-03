@@ -52,6 +52,13 @@
 |-------------|:-----:| :-----: | :-----: |
 |675 Cut Off Trees for Golf Event |[py](code/675.py) | PQ + BFS
 
+
+## DFS
+| Title  | Solution | S1 | S2
+|-------------|:-----:| :-----: | :-----: |
+|200 Number of Islands | [py](code/675.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
+
+
 ## Stack
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
