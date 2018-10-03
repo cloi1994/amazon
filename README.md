@@ -15,6 +15,7 @@
 |534 Design TinyURL || code2long <br> long2code <br> 5 random alpha|
 |146	LRU Cache |[py](code/146.py) | Hash + DLL
 |13	Roman to Integer |[py](code/13.py) | minus if num[cur-1] < num[cur]
+|48 Rotate Image |[py](code/48.py)|
 
 
 ## Easy
