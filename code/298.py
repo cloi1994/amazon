@@ -9,12 +9,14 @@ class Solution:
     
     void dfs(root, prevVal, curLen):
         if not root:
-          return;
+          return
+    
         if root.val == prevVal + 1:
           curLen += 1
         else 
           curLen = 1
           
-        self.res = max(self.res, curLen);
+        self.res = max(self.res, curLen)
+        
         dfs(root.left, root.val, curLen)
         dfs(root.right, root.val, curLen)
