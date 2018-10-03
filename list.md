@@ -1,4 +1,7 @@
 Amazon (88)
+
+|Title|
+|---|
 534 Design TinyURL
 675 Cut Off Trees for Golf Event
 1 Two Sum
