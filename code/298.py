@@ -7,7 +7,7 @@ class Solution:
         dfs(root, root.val, 0)
         return res
     
-    void dfs(root, int prevVal, int curLen):
+    void dfs(root, prevVal, curLen):
         if not root:
           return;
         if root.val == prevVal + 1:
@@ -15,6 +15,6 @@ class Solution:
         else 
           curLen = 1
           
-        self.res = max(self.res, out);
-        dfs(root.left, root.val, out, res)
-        dfs(root.right, root.val, out, res)
+        self.res = max(self.res, curLen);
+        dfs(root.left, root.val, curLen)
+        dfs(root.right, root.val, curLen)
