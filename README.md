@@ -26,7 +26,10 @@
 |33 Search in Rotated Sorted Array |[py](https://github.com/cloi1994/amazon/blob/master/code/33.py) | left half sorted : if nums[mid] >= nums[i]: <br> else: right half sorted or one element left
 |153 Find Minimum in Rotated Sorted Array |[py](https://github.com/cloi1994/amazon/blob/master/code/153.py)| if nums[mid] > nums[j]: i = mid + 1 <br >else: j = mid
 |162 Find Peak Element|[py](https://github.com/cloi1994/amazon/blob/master/code/162.py) |if nums[mid] < nums[mid+1]:i = mid + 1 <br> else: j = mid
-|300 Longest Increasing Subsequence |[py](https://github.com/cloi1994/amazon/blob/master/code/162.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
+|300 Longest Increasing Subsequence |[py](https://github.com/cloi1994/amazon/blob/master/code/300.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
+|354 Russian Doll Envelopes|| (1) Sort the array. Ascend on width and descend on height if width are same. <br> (2) Find the longest increasing subsequence based on height
+|315 Count of Smaller Numbers After Self || (1) Sort the array to BST. <br> (2) Find the depth of left subtree or Node contain leftsubtree count
+
 ## Memo
 
 | Title  | Solution  | S1 | S2
