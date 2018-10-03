@@ -3,6 +3,7 @@
 | Title  | Solution  | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |4	Median of Two Sorted Arrays | [py](https://github.com/cloi1994/amazon/blob/master/code/4.py) | left = 0, right = n1 (no - 1) <br> cut1 = left + (right - left) // 2 <br> cut2 = (n1+n2) / 2 - cut1
+|534 Design TinyURL || code2long <br> long2code <br> 5 random alpha|
 |146	LRU Cache |[py](https://github.com/cloi1994/amazon/blob/master/code/146.py) | Hash + DLL
 |13	Roman to Integer |[py](https://github.com/cloi1994/amazon/blob/master/code/13.py) | minus if num[cur-1] < num[cur]
 
@@ -46,7 +47,10 @@
 |-------------|:-----:| :-----: | :-----: |
 |298	Binary Tree Longest Consecutive Sequence |[py](https://github.com/cloi1994/amazon/blob/master/code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
 
-
+## BFS
+| Title  | Solution | S1 | S2
+|-------------|:-----:| :-----: | :-----: |
+|675 Cut Off Trees for Golf Event
 
 ## Stack
 | Title  | Solution | S1 | S2
