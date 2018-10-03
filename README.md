@@ -35,8 +35,8 @@
 |-------------|:-----:| :-----: | :-----: |
 |35	Search Insert Position | [py](code/35.py)|  while i < j : <br> j = mid
 |350 Intersection of Two Arrays II | | sorted num1 and binary search num1 <br> del num1 visited | if all sorted <br> binary search largest one
-|33 Search in Rotated Sorted Array |[py](code/33.py) | left half sorted : if nums[mid] >= nums[i]: <br> else: right half sorted or one element left
-|153 Find Minimum in Rotated Sorted Array |[py](code/153.py)| if nums[mid] > nums[j]: i = mid + 1 <br >else: j = mid
+|33 Search in Rotated Sorted Array |[py](code/33.py) | left half sorted : if nums[mid] >= nums[i]: <br> else: right half sorted or one element left | i++ if dup
+|153 Find Minimum in Rotated Sorted Array |[py](code/153.py)| if nums[mid] > nums[j]: i = mid + 1 <br >else: j = mid | i++ if dup
 |162 Find Peak Element|[py](code/162.py) |if nums[mid] < nums[mid+1]:i = mid + 1 <br> else: j = mid
 |300 Longest Increasing Subsequence |[py](code/300.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
 |354 Russian Doll Envelopes|| (1) Sort the array. Ascend on width and descend on height if width are same. <br> (2) Find the longest increasing subsequence based on height
