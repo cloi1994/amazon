@@ -50,7 +50,7 @@
 ## BFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|675 Cut Off Trees for Golf Event || PQ + BFS
+|675 Cut Off Trees for Golf Event |[py](/code/675.py) | PQ + BFS
 
 ## Stack
 | Title  | Solution | S1 | S2
