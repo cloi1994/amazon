@@ -23,8 +23,10 @@
 |-------------|:-----:| :-----: | :-----: |
 |35	Search Insert Position | [py](https://github.com/cloi1994/amazon/blob/master/code/35.py)|  while i < j : <br> j = mid
 |350 Intersection of Two Arrays II | | sorted num1 and binary search num1 <br> del num1 visited | if all sorted <br> binary search largest one
-|33 Search in Rotated Sorted Array |[py](https://github.com/cloi1994/amazon/blob/master/code/33.py) | left half sorted : if nums[mid] >= nums[i]: <br> else right half sorted or one element left
-
+|33 Search in Rotated Sorted Array |[py](https://github.com/cloi1994/amazon/blob/master/code/33.py) | left half sorted : if nums[mid] >= nums[i]: <br> else: right half sorted or one element left
+|153 Find Minimum in Rotated Sorted Array |[py](https://github.com/cloi1994/amazon/blob/master/code/153.py)| if nums[mid] > nums[j]: i = mid + 1 <br >else: j = mid
+|162 Find Peak Element|[py](https://github.com/cloi1994/amazon/blob/master/code/162.py) |if nums[mid] < nums[mid+1]:i = mid + 1 <br> else: j = mid
+|300 Longest Increasing Subsequence |[py](https://github.com/cloi1994/amazon/blob/master/code/162.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
 ## Memo
 
 | Title  | Solution  | S1 | S2
