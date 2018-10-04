@@ -8,7 +8,6 @@
 7. [Stack](#stack)
 
 
-5 Longest Palindromic Substring
 17 Letter Combinations of a Phone Number
 238 Product of Array Except Self
 42 Trapping Rain Water
@@ -52,9 +51,10 @@
 |-------------|:-----:| :-----: | :-----: |
 |1	Two Sum |[py](code/1.py) | HashMap , Sorted Two Pointer
 |3	Longest Substring Without Repeating Characters | [py](code/3.py)| before put a ele in set <br> clear all char ahead that and delete that ele.
+|5 Longest Palindromic Substring |[py](code/5.py)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> = s[i] == s[j] if j = i + 1 <br> = s[i] == s[j] && dp[i + 1][j - 1]  if j > i + 1      
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |438 Find All Anagrams in a String| [py](code/438.py) | Silding Windows <br> add tail remove head
-|239 Sliding Window Maximum | [py](code/438.py) | Silding Windows + Heap <br> add tail remove head
+|239 Sliding Window Maximum | [py](code/239.py) | Silding Windows + Heap <br> add tail remove head
 
 ## Binary Search
 
@@ -70,6 +70,7 @@
 |315 Count of Smaller Numbers After Self || (1) Sort the array to BST. <br> (2) Find the depth of left subtree or Node contain leftsubtree count
 |121 Best Time to Buy and Sell Stock || create gain array <br> do maxiumum subarray  
 |122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
+
 ## Binary Tree
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
