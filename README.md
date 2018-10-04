@@ -89,12 +89,17 @@
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
-
-
+|377 Combination Sum IV || for n in nums: summ += self.dfs(nums,target-n,dp) <br> dp[target] = summ | return 0 or 1
 ## Backtacking
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|17 Letter Combinations of a Phone Number | [py](code/17.py) | for ele in dict[index] | 
+|17 Letter Combinations of a Phone Number |  | for ele in dict[index] | 
+|282 Expression Add Operators |[py](code/282.py)| for i in range(idx,len(num)): <br> val = num[idx:i+1] | string partition <br> abc -> a -> b -> c 
+            <br> a -> bc
+            <br> ab -> c
+            <br> abc
+|40 Combination Sum II | |dfs(i+1) <br> if i != start && num[i] == num[i - 1]: continue 
+|47 Permutations II| |if i > 0 and nums[i-1] == nums[i] and not visited[i-1] == 0: continue
 
 ## Linked List
 | Title  | Solution | S1 | S2
