@@ -30,7 +30,8 @@
 |13	Roman to Integer |[py](code/13.py) | minus if num[cur-1] < num[cur]
 |48 Rotate Image |[py](code/48.py)| Reverse First <br> for ... i = 0, for ... j = i+1 swap
 |297 Serialize and Deserialize Binary Tree || save inorder <br> None = #
-
+|5 Longest Palindromic Substring |[py](code/5.py)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1])    
+|516 Longest Palindromic Subsequence |[py](code/516.py)| dp[i][i] = 1 <br> if (s[i] == s[j]): dp[i][j] = dp[i + 1][j - 1] + 2 <br> else: dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
 
 
 ## Easy
@@ -51,7 +52,6 @@
 |-------------|:-----:| :-----: | :-----: |
 |1	Two Sum |[py](code/1.py) | HashMap , Sorted Two Pointer
 |3	Longest Substring Without Repeating Characters | [py](code/3.py)| before put a ele in set <br> clear all char ahead that and delete that ele.
-|5 Longest Palindromic Substring |[py](code/5.py)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1])     
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |438 Find All Anagrams in a String| [py](code/438.py) | Silding Windows <br> add tail remove head
 |239 Sliding Window Maximum | [py](code/239.py) | Silding Windows + Heap <br> add tail remove head
