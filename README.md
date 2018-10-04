@@ -7,6 +7,19 @@
 6. [DFS](#dfs)
 7. [Stack](#stack)
 
+
+5 Longest Palindromic Substring
+17 Letter Combinations of a Phone Number
+238 Product of Array Except Self
+42 Trapping Rain Water
+682 Baseball Game
+127 Word Ladder
+380 Insert Delete GetRandom O(1)
+235 Lowest Common Ancestor of a Binary Search Tree
+206 Reverse Linked List
+23 Merge k Sorted Lists
+155 Min Stack
+
 ## Memo
 
 | Title  | Solution  | S1 | S2
@@ -41,6 +54,7 @@
 |3	Longest Substring Without Repeating Characters | [py](code/3.py)| before put a ele in set <br> clear all char ahead that and delete that ele.
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |438 Find All Anagrams in a String| [py](code/438.py) | Silding Windows <br> add tail remove head
+|239 Sliding Window Maximum | [py](code/438.py) | Silding Windows + Heap <br> add tail remove head
 
 ## Binary Search
 
