@@ -14,6 +14,7 @@
 |4	Median of Two Sorted Arrays | [py](code/4.py) | left = 0, right = n1 (no - 1) <br> cut1 = left + (right - left) // 2 <br> cut2 = (n1+n2) / 2 - cut1
 |534 Design TinyURL || code2long <br> long2code <br> 5 random alpha|
 |146	LRU Cache |[py](code/146.py) | Hash + DLL
+|460 LFU Cache |------|-----|----------
 |13	Roman to Integer |[py](code/13.py) | minus if num[cur-1] < num[cur]
 |48 Rotate Image |[py](code/48.py)| Reverse First <br> for ... i = 0, for ... j = i+1 swap
 |297 Serialize and Deserialize Binary Tree || save inorder <br> None = #
@@ -53,12 +54,14 @@
 |300 Longest Increasing Subsequence |[py](code/300.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
 |354 Russian Doll Envelopes|| (1) Sort the array. Ascend on width and descend on height if width are same. <br> (2) Find the longest increasing subsequence based on height
 |315 Count of Smaller Numbers After Self || (1) Sort the array to BST. <br> (2) Find the depth of left subtree or Node contain leftsubtree count
-
+|121 Best Time to Buy and Sell Stock || create gain array <br> do maxiumum subarray  
+|122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
 ## Binary Tree
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |298	Binary Tree Longest Consecutive Sequence |[py](code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
 |236 Lowest Common Ancestor of a Binary Tree |[py](code/236.py)| p dict, q dict and set | if p or q: return <br> if left and right: return root
+
 ## BFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
