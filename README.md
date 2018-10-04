@@ -34,6 +34,7 @@
 |297 Serialize and Deserialize Binary Tree || save inorder <br> None = #
 |5 Longest Palindromic Substring |[cpp](code/5.cpp)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1])    
 |516 Longest Palindromic Subsequence |[cpp](code/516.cpp)| dp[i][i] = 1 <br> if (s[i] == s[j]): dp[i][j] = dp[i + 1][j - 1] + 2 <br> else: dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
+|23 Merge k Sorted Lists |[py](code/23.py)| Divide and Conquer <br> if left >= right: return lists[left]| PQ with head
 
 
 ## Easy
@@ -45,6 +46,7 @@
 |9	Palindrome Number | [py](code/9.py)| res = 10 * res + x % 10	
 |168 Excel Sheet Column Title | [py](code/168.py)| 10 to 26	
 |171 Excel Sheet Column Number | [py](code/171.py)| 26 to 10	
+|238 Product of Array Except Self || 1 a1 a1a2 <br> a2a3 a1a3 a1a2
 
 
 
@@ -57,6 +59,7 @@
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |438 Find All Anagrams in a String| [py](code/438.py) | Silding Windows <br> add tail remove head
 |239 Sliding Window Maximum | [py](code/239.py) | Silding Windows + Heap <br> add tail remove head
+|42 Trapping Rain Water |[py](code/42.py)| arr : 1 2 3 <br> left : 1 2 3 <br> right : 3 3 3  | if height[i] < height[j]: left ++ <br> else right--
 
 ## Binary Search
 
@@ -102,6 +105,7 @@
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |138 Copy List with Random Pointer | [py](code/138.py) | newHead -> newCur -> None <br> hm[cur] = newCur | S1-> N_S1 -> S2 -> N_S2
+|206 Reverse Linked List || prev = None, nextCur = cur.next 
 
 
 ## Stack
