@@ -10,16 +10,7 @@
 9. [Linked List](#linked-list)
 
 
-17 Letter Combinations of a Phone Number
-238 Product of Array Except Self
-42 Trapping Rain Water
 682 Baseball Game
-127 Word Ladder
-380 Insert Delete GetRandom O(1)
-235 Lowest Common Ancestor of a Binary Search Tree
-206 Reverse Linked List
-23 Merge k Sorted Lists
-155 Min Stack
 
 ## Memo
 
@@ -47,7 +38,8 @@
 |168 Excel Sheet Column Title | [py](code/168.py)| 10 to 26	
 |171 Excel Sheet Column Number | [py](code/171.py)| 26 to 10	
 |238 Product of Array Except Self || 1 a1 a1a2 <br> a2a3 a1a3 a1a2
-
+|380 Insert Delete GetRandom O(1) || HashMap -> index <br> swap last with delete ele
+|155 Min Stack || Normal Stack + Min Stack
 
 
 ## Two Pointer
@@ -81,12 +73,13 @@
 |-------------|:-----:| :-----: | :-----: |
 |298	Binary Tree Longest Consecutive Sequence |[py](code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
 |236 Lowest Common Ancestor of a Binary Tree |[py](code/236.py)| p dict, q dict and set | if p or q: return <br> if left and right: return root
+|235 Lowest Common Ancestor of a Binary Search Tree || search the tree base on p.val q.val <br> move left or right base on condition
 
 ## BFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |675 Cut Off Trees for Golf Event |[py](code/675.py) | PQ + BFS
-
+|127 Word Ladder |[py](code/127.py)| BFS to replace each word <br> remove word when seen
 
 ## DFS
 | Title  | Solution | S1 | S2
