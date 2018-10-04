@@ -30,8 +30,8 @@
 |13	Roman to Integer |[py](code/13.py) | minus if num[cur-1] < num[cur]
 |48 Rotate Image |[py](code/48.py)| Reverse First <br> for ... i = 0, for ... j = i+1 swap
 |297 Serialize and Deserialize Binary Tree || save inorder <br> None = #
-|5 Longest Palindromic Substring |[c](code/5.c)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1])    
-|516 Longest Palindromic Subsequence |[c](code/516.c)| dp[i][i] = 1 <br> if (s[i] == s[j]): dp[i][j] = dp[i + 1][j - 1] + 2 <br> else: dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
+|5 Longest Palindromic Substring |[cpp](code/5.cpp)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1])    
+|516 Longest Palindromic Subsequence |[cpp](code/516.cpp)| dp[i][i] = 1 <br> if (s[i] == s[j]): dp[i][j] = dp[i + 1][j - 1] + 2 <br> else: dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
 
 
 ## Easy
