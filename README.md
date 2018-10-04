@@ -105,4 +105,5 @@
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |20	Valid Parentheses | | push if '(' <br> pop if ')' | counter++ if '(' <br> counter-- if '('
+|682 Baseball Game | | follow rules
 
