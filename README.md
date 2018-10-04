@@ -6,6 +6,8 @@
 5. [BFS](#bfs)
 6. [DFS](#dfs)
 7. [Stack](#stack)
+8. [Backtacking](#backtacking)
+9. [Linked List](#linked-list)
 
 
 17 Letter Combinations of a Phone Number
@@ -86,13 +88,19 @@
 ## DFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|138 Copy List with Random Pointer | [py](code/138.py) | newHead -> newCur -> None <br> hm[cur] = newCur | S1-> N_S1 -> S2 -> N_S2
+|200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
 
+
+## Backtacking
+| Title  | Solution | S1 | S2
+|-------------|:-----:| :-----: | :-----: |
+|17 Letter Combinations of a Phone Number | [py](code/17.py) | for ele in dict[index] | 
 
 ## Linked List
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
+|138 Copy List with Random Pointer | [py](code/138.py) | newHead -> newCur -> None <br> hm[cur] = newCur | S1-> N_S1 -> S2 -> N_S2
+
 
 ## Stack
 | Title  | Solution | S1 | S2
