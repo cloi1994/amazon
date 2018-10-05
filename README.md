@@ -74,6 +74,7 @@
 |298	Binary Tree Longest Consecutive Sequence |[py](code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
 |236 Lowest Common Ancestor of a Binary Tree |[py](code/236.py)| p dict, q dict and set | if p or q: return <br> if left and right: return root
 |235 Lowest Common Ancestor of a Binary Search Tree || search the tree base on p.val q.val <br> move left or right base on condition
+|98 Validate Binary Search Tree || pass limit on child nodes
 
 ## BFS
 | Title  | Solution | S1 | S2
