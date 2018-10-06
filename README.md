@@ -23,7 +23,7 @@
 |13	Roman to Integer |[py](code/13.py) | minus if num[cur-1] < num[cur]
 |48 Rotate Image |[py](code/48.py)| Reverse First <br> for ... i = 0, for ... j = i+1 swap
 |297 Serialize and Deserialize Binary Tree || save inorder <br> None = #
-|5 Longest Palindromic Substring |[cpp](code/5.cpp)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1])  <br> aba <br> a,0 - c,2 - b = 0+1,2-1
+|5 Longest Palindromic Substring |[cpp](code/5.cpp)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1]) <br> aba <br> a,0 - c,2 - b = 0+1,2-1
 |516 Longest Palindromic Subsequence |[cpp](code/516.cpp)| dp[i][i] = 1 <br> if (s[i] == s[j]): dp[i][j] = dp[i + 1][j - 1] + 2 <br> else: dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
 |23 Merge k Sorted Lists |[py](code/23.py)| Divide and Conquer <br> if left >= right: return lists[left]| PQ with head
 |517 Super Washing Machines |------|-------
