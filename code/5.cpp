@@ -1,6 +1,8 @@
 // DP
 class Solution {
 public:
+    // aba   b = i+1,j-1
+    // i j
     string longestPalindrome(string s) {
         int dp[s.size()][s.size()] = {0}, left = 0, right = 0, len = 0;
         for (int i = 0; i < s.size(); ++i) {
