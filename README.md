@@ -29,7 +29,7 @@
 |517 Super Washing Machines |------|-------
 |121 Best Time to Buy and Sell Stock || create gain array <br> do maxiumum subarray  
 |122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
-|139 Word Break |------|--------
+|139 Word Break |[py](code/139.py)| dp[i] = postion can break
 
 ## Easy
 
@@ -113,7 +113,8 @@
 |138 Copy List with Random Pointer | [py](code/138.py) | newHead -> newCur -> None <br> hm[cur] = newCur | S1-> N_S1 -> S2 -> N_S2
 |206 Reverse Linked List || prev = None, nextCur = cur.next 
 |234 Palindrome Linked List || stack, if not fast.next == odd | reverse second half list
-
+|160 Intersection of Two Linked Lists || find length different | while a != b , if a = null: a = bHead else b = aHead
+|141 Linked List Cycle || slow and fast, if meet again has cycle | slow = head, if meet again <br> slow = entry point
 
 ## Stack
 | Title  | Solution | S1 | S2
