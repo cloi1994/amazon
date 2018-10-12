@@ -12,6 +12,13 @@
 
 73 Set Matrix Zeroes
 8 String to Integer (atoi)
+662 Maximum Width of Binary Tree
+645 Set Mismatch
+396 Rotate Function
+646 Maximum Length of Pair Chain
+606 Construct String from Binary Tree
+640 Solve the Equation
+532 K-diff Pairs in an Array
 
 ## Memo
 
@@ -32,7 +39,7 @@
 |122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
 |139 Word Break |[py](code/139.py)| dp[i] = postion can break
 |151 Reverse Words in a String ||  while j >= 0 and s[j] == ' ': <br> while j >= 0 and s[j] != ' ':
-|
+|459 Repeated Substring Pattern || if n%1 and connected substirng == original <br> return true
 
 
 ## Easy
@@ -51,7 +58,9 @@
 |242 Valid Anagram || Hash counting if same
 |414 Third Maximum Number || v = [-inf,-inf,-inf]
 |89 Gray Code || int inc = 1 <br> greySeq[j]+inc <br> inc <<= 1
-|791. Custom Sort String || Store the order of char in a hashtable <br> Sort the string based on the order
+|791 Custom Sort String || Store the order of char in a hashtable <br> Sort the string based on the order
+|661 Image Smoother || check all dir cnt/all
+
 
 ## Two Pointer
 
@@ -61,7 +70,6 @@
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |42 Trapping Rain Water |[py](code/42.py)| arr : 1 2 3 <br> left : 1 2 3 <br> right : 3 3 3  | if height[i] < height[j]: left ++ <br> else right--
 |15 3Sum || sorted, for i, while j < k
-
 
 ## Sliding Window
 | Title  | Solution | S1 | S2
@@ -93,6 +101,10 @@
 |235 Lowest Common Ancestor of a Binary Search Tree || search the tree base on p.val q.val <br> move left or right base on condition
 |98 Validate Binary Search Tree || pass limit on child nodes
 |315 Count of Smaller Numbers After Self || (1) Sort the array to BST. <br> (2) Find the depth of left subtree or Node contain leftsubtree count
+|617 Merge Two Binary Trees || if not t1: return t2
+|663 Equal Tree Partition || get sum of each node <br> total / 2.0 in seen
+|545 Boundary of Binary Tree || leftBoundary,rightBoundary,leaves
+
 
 ## BFS
 | Title  | Solution | S1 | S2
