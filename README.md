@@ -10,7 +10,17 @@
 9. [Linked List](#linked-list)
 
 
-682 Baseball Game
+535 Encode and Decode TinyURL
+73 Set Matrix Zeroes
+102 Binary Tree Level Order Traversal
+508 Most Frequent Subtree Sum
+8 String to Integer (atoi)
+538 Convert BST to Greater Tree
+204 Count Primes
+199 Binary Tree Right Side View
+414 Third Maximum Number
+89 Gray Code
+451 Sort Characters By Frequency
 
 ## Memo
 
@@ -30,6 +40,9 @@
 |121 Best Time to Buy and Sell Stock || create gain array <br> do maxiumum subarray  
 |122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
 |139 Word Break |[py](code/139.py)| dp[i] = postion can break
+|151 Reverse Words in a String ||  while j >= 0 and s[j] == ' ': <br> while j >= 0 and s[j] != ' ':
+|
+
 
 ## Easy
 
@@ -54,7 +67,7 @@
 |1	Two Sum |[py](code/1.py) | HashMap , Sorted Two Pointer
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |42 Trapping Rain Water |[py](code/42.py)| arr : 1 2 3 <br> left : 1 2 3 <br> right : 3 3 3  | if height[i] < height[j]: left ++ <br> else right--
-
+|15 3Sum || sorted, for i, while j < k
 ## Sliding Window
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
@@ -96,7 +109,6 @@
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
-|377 Combination Sum IV || for n in nums: summ += self.dfs(nums,target-n,dp) <br> dp[target] = summ | return 0 or 1
 |529 Minesweeper || dfs count num of near mine <br> if 0: search 4 way <else> stop and mark num
 
 ## Backtacking
@@ -105,7 +117,9 @@
 |17 Letter Combinations of a Phone Number |  | for ele in dict[index] | 
 |282 Expression Add Operators |[py](code/282.py)| for i in range(idx,len(num)): <br> val = num[idx:i+1] | string partition <br> abc -> a -> b -> c <br> a -> bc <br> ab -> c <br> abc
 |40 Combination Sum II | |dfs(i+1) <br> if i != start && num[i] == num[i - 1]: continue 
+|377 Combination Sum IV || for n in nums: summ += self.dfs(nums,target-n,dp) <br> dp[target] = summ <br>  target is the identity of current status | return 0 or 1 
 |47 Permutations II|[py](code/529.py)|if i > 0 and nums[i-1] == nums[i] and not visited[i-1] == 0: continue
+|78 Subsets || same as combination
 
 ## Linked List
 | Title  | Solution | S1 | S2
