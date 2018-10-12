@@ -12,7 +12,6 @@
 
 73 Set Matrix Zeroes
 8 String to Integer (atoi)
-662 Maximum Width of Binary Tree
 396 Rotate Function
 646 Maximum Length of Pair Chain
 640 Solve the Equation
@@ -101,7 +100,7 @@
 |617 Merge Two Binary Trees || if not t1: return t2
 |663 Equal Tree Partition || get sum of each node <br> total / 2.0 in seen
 |545 Boundary of Binary Tree || leftBoundary,rightBoundary,leaves
-
+|662 Maximum Width of Binary Tree || left : right * 2 <br> right: right * 2 + 1 <br> idx - level[h] + 1
 
 ## BFS
 | Title  | Solution | S1 | S2
