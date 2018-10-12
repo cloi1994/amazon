@@ -10,17 +10,8 @@
 9. [Linked List](#linked-list)
 
 
-535 Encode and Decode TinyURL
 73 Set Matrix Zeroes
-102 Binary Tree Level Order Traversal
-508 Most Frequent Subtree Sum
 8 String to Integer (atoi)
-538 Convert BST to Greater Tree
-204 Count Primes
-199 Binary Tree Right Side View
-414 Third Maximum Number
-89 Gray Code
-451 Sort Characters By Frequency
 
 ## Memo
 
@@ -58,7 +49,8 @@
 |155 Min Stack || Normal Stack + Min Stack
 |49 Group Anagrams || list to string as key | sort each string as key
 |242 Valid Anagram || Hash counting if same
-
+|414 Third Maximum Number || v = [-inf,-inf,-inf]
+|89 Gray Code || int inc = 1 <br> greySeq[j]+inc <br> inc <<= 1
 
 ## Two Pointer
 
@@ -68,6 +60,8 @@
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |42 Trapping Rain Water |[py](code/42.py)| arr : 1 2 3 <br> left : 1 2 3 <br> right : 3 3 3  | if height[i] < height[j]: left ++ <br> else right--
 |15 3Sum || sorted, for i, while j < k
+
+
 ## Sliding Window
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
@@ -110,6 +104,8 @@
 |-------------|:-----:| :-----: | :-----: |
 |200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
 |529 Minesweeper || dfs count num of near mine <br> if 0: search 4 way <else> stop and mark num
+|508 Most Frequent Subtree Sum || post order + hash
+
 
 ## Backtacking
 | Title  | Solution | S1 | S2
