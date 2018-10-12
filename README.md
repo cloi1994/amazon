@@ -13,12 +13,9 @@
 73 Set Matrix Zeroes
 8 String to Integer (atoi)
 662 Maximum Width of Binary Tree
-645 Set Mismatch
 396 Rotate Function
 646 Maximum Length of Pair Chain
-606 Construct String from Binary Tree
 640 Solve the Equation
-532 K-diff Pairs in an Array
 
 ## Memo
 
@@ -40,7 +37,7 @@
 |139 Word Break |[py](code/139.py)| dp[i] = postion can break
 |151 Reverse Words in a String ||  while j >= 0 and s[j] == ' ': <br> while j >= 0 and s[j] != ' ':
 |459 Repeated Substring Pattern || if n%1 and connected substirng == original <br> return true
-
+|532 K-diff Pairs in an Array || hm <br> if if k == 0 -> if hm[key] >= 2 : cnt +=1  <br> else: if key - k in hm: cnt+1
 
 ## Easy
 
@@ -60,7 +57,7 @@
 |89 Gray Code || int inc = 1 <br> greySeq[j]+inc <br> inc <<= 1
 |791 Custom Sort String || Store the order of char in a hashtable <br> Sort the string based on the order
 |661 Image Smoother || check all dir cnt/all
-
+|645 Set Mismatch || if i not in d = missing <br> if d[i] == 2 = repeat
 
 ## Two Pointer
 
@@ -118,7 +115,7 @@
 |200 Number of Islands | [py](code/200.py) | For each position <br> dfs 4 directions <br> change 0 to 1 | 
 |529 Minesweeper || dfs count num of near mine <br> if 0: search 4 way <else> stop and mark num
 |508 Most Frequent Subtree Sum || post order + hash
-
+|606 Construct String from Binary Tree| | preorder <br> catch : str(t.val) + '(' + self.tree2str(t.left)  + ')'
 
 ## Backtacking
 | Title  | Solution | S1 | S2
