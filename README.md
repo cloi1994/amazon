@@ -51,6 +51,7 @@
 |242 Valid Anagram || Hash counting if same
 |414 Third Maximum Number || v = [-inf,-inf,-inf]
 |89 Gray Code || int inc = 1 <br> greySeq[j]+inc <br> inc <<= 1
+|791. Custom Sort String || Store the order of char in a hashtable <br> Sort the string based on the order
 
 ## Two Pointer
 
