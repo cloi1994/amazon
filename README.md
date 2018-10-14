@@ -36,7 +36,9 @@
 |139 Word Break |[py](code/139.py)| dp[i] = postion can break
 |151 Reverse Words in a String ||  while j >= 0 and s[j] == ' ': <br> while j >= 0 and s[j] != ' ':
 |459 Repeated Substring Pattern || if n%1 and connected substirng == original <br> return true
-|532 K-diff Pairs in an Array || hm <br> if if k == 0 -> if hm[key] >= 2 : cnt +=1  <br> else: if key - k in hm: cnt+1
+|532 K-diff Pairs in an Array || hm <br> if if k == 0 -> if hm[key] >= 2 : cnt +=1  <br> else: if key - k in hm: cnt+1|
+|75 Sort Colors || A[cur] = 0：swap(A[cur++],A[left++]) <br> A[cur] = 1: cur ++
+
 
 ## Easy
 
