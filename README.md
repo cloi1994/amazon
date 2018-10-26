@@ -38,7 +38,7 @@
 |459 Repeated Substring Pattern || if n%i and connected substirng == original <br> return true
 |532 K-diff Pairs in an Array || hm <br> if if k == 0 -> if hm[key] >= 2 : cnt +=1  <br> else: if key - k in hm: cnt+1|
 |75 Sort Colors || A[cur] = 0：swap(A[cur++],A[left++]) <br> A[cur] = 1: cur ++
-
+|211. Add and Search Word - Data structure design || c != '#' and self.searchWord(word[i+1:],p[c])
 
 ## Easy
 
