@@ -35,7 +35,7 @@
 |122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
 |139 Word Break |[py](code/139.py)| dp[i] = postion can break
 |151 Reverse Words in a String ||  while j >= 0 and s[j] == ' ': <br> while j >= 0 and s[j] != ' ':
-|459 Repeated Substring Pattern || if n%1 and connected substirng == original <br> return true
+|459 Repeated Substring Pattern || if n%i and connected substirng == original <br> return true
 |532 K-diff Pairs in an Array || hm <br> if if k == 0 -> if hm[key] >= 2 : cnt +=1  <br> else: if key - k in hm: cnt+1|
 |75 Sort Colors || A[cur] = 0：swap(A[cur++],A[left++]) <br> A[cur] = 1: cur ++
 
@@ -68,6 +68,7 @@
 |11	Container With Most Water |[py](code/11.py) | if left < right : left++ <br> elif right < left: right-- 
 |42 Trapping Rain Water |[py](code/42.py)| arr : 1 2 3 <br> left : 1 2 3 <br> right : 3 3 3  | if height[i] < height[j]: left ++ <br> else right--
 |15 3Sum || sorted, for i, while j < k
+|454 4Sum II || hashmap = A+B, 2 for loop C+D similar to 2Sum
 
 ## Sliding Window
 | Title  | Solution | S1 | S2
