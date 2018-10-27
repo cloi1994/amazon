@@ -40,8 +40,9 @@
 |75 Sort Colors || A[cur] = 0：swap(A[cur++],A[left++]) <br> A[cur] = 1: cur ++
 |211 Add and Search Word - Data structure design || c != '#' and self.searchWord(word[i+1:],p[c])
 |269 Alien Dictionary || indegree, BFS degree(0)
-|863. All Nodes Distance K in Binary Tree || build graph hm[parent] = child, hm[child] = parent
-
+|863 All Nodes Distance K in Binary Tree || build graph hm[parent] = child, hm[child] = parent
+|224 Basic Calculator || num,sign,res <br> if '(' push(res),push(sign)
+|227. Basic Calculator II || op='+',res = 0, curRes = 0, num = 0 | if (c == '+' || c == '-' || i == n - 1): <br>  res += curRes <br> curRes = 0
 
 ## Easy
 
