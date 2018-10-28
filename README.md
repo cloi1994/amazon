@@ -43,7 +43,7 @@
 |863 All Nodes Distance K in Binary Tree || build graph hm[parent] = child, hm[child] = parent
 |224 Basic Calculator || num,sign,res <br> if '(' push(res),push(sign)
 |227. Basic Calculator II || op='+',res = 0, curRes = 0, num = 0 | if (c == '+' || c == '-' || i == n - 1): <br>  res += curRes <br> curRes = 0
-
+|coin change || dp[i] = min(dp[i], dp[i - coins[j]] + 1)
 ## Easy
 
 | Title  | Solution  | S1 | S2
@@ -103,12 +103,13 @@
 |236 Lowest Common Ancestor of a Binary Tree |[py](code/236.py)| p dict, q dict and set | if p or q: return <br> if left and right: return root
 |235 Lowest Common Ancestor of a Binary Search Tree || search the tree base on p.val q.val <br> move left or right base on condition
 |98 Validate Binary Search Tree || pass limit on child nodes
-|315 Count of Smaller Numbers After Self || (1) Sort the array to BST. <br> (2) Find the depth of left subtree or Node contain leftsubtree count
+|315 Count of Smaller Numbers After Self || Longest Increasing Subsequence (reverse) , size = len(tail)
 |617 Merge Two Binary Trees || if not t1: return t2
 |663 Equal Tree Partition || get sum of each node <br> total / 2.0 in seen
 |545 Boundary of Binary Tree || leftBoundary,rightBoundary,leaves
 |662 Maximum Width of Binary Tree || left : right * 2 <br> right: right * 2 + 1 <br> idx - level[h] + 1
-
+|124 Binary Tree Maximum Path Sum || left = max(helper(node., res), 0) <br> right = max(helper(node.right, res), 0) <br> max(res,left + right + root.val)
+|
 ## BFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
