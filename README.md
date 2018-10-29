@@ -148,5 +148,5 @@
 |-------------|:-----:| :-----: | :-----: |
 |20	Valid Parentheses | | push if '(' <br> pop if ')' | counter++ if '(' <br> counter-- if '('
 |682 Baseball Game | | follow rules
-
+|739 Daily Temperatures | | Descending Stack <br> while (!st.empty() && temperatures[i] > temperatures[st.top()]) | t = s.pop(0)<br>res[t] = i - t
 
