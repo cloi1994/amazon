@@ -109,7 +109,9 @@
 |545 Boundary of Binary Tree || leftBoundary,rightBoundary,leaves
 |662 Maximum Width of Binary Tree || left : right * 2 <br> right: right * 2 + 1 <br> idx - level[h] + 1
 |124 Binary Tree Maximum Path Sum || left = max(helper(node., res), 0) <br> right = max(helper(node.right, res), 0) <br> max(res,left + right + root.val)
-|
+|105 Construct Binary Tree from Preorder and Inorder Traversal || pLeft + i - iLeft
+
+
 ## BFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
