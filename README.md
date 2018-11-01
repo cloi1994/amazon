@@ -98,7 +98,7 @@
 |300 Longest Increasing Subsequence |[py](code/300.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
 |354 Russian Doll Envelopes|| (1) Sort the array. Ascend on width and descend on height if width are same. <br> (2) Find the longest increasing subsequence based on height
 |240 Search a 2D Matrix II || start from left-bottom <br> if (matrix[x][y] > target) --x <br> else if (matrix[x][y] < target) ++y
-|658 Find K Closest Elements |[cpp](code/658.cpp)| if (x - arr[mid] > arr[mid + k] - x) left = mid + 1 <br> else: right = mid
+|658 Find K Closest Elements |[cpp](code/658.cpp)| if (x - arr[mid] > arr[mid + k] - x) left = mid + 1 <br> else: right = mid | right = len(arr) - l , last valid start point
 
 ## Binary Tree
 | Title  | Solution | S1 | S2
