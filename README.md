@@ -42,7 +42,8 @@
 |269 Alien Dictionary || indegree, BFS degree(0)
 |863 All Nodes Distance K in Binary Tree || build graph hm[parent] = child, hm[child] = parent
 |224 Basic Calculator || num,sign,res <br> if '(' push(res),push(sign)
-|227. Basic Calculator II || op='+',res = 0, curRes = 0, num = 0 | if (c == '+' || c == '-' || i == n - 1): <br>  res += curRes <br> curRes = 0
+|227 Basic Calculator II | [cpp](code/227.cpp| op='+',res = 0, curRes = 0, num = 0 | if (c == '+' || c == '-' || i == n - 1): <br>  res += curRes <br> curRes = 0
+|150 Evaluate Reverse Polish Notation || stack.append(), isOp: pop 2 times
 |coin change || dp[i] = min(dp[i], dp[i - coins[j]] + 1)
 ## Easy
 
@@ -63,6 +64,8 @@
 |791 Custom Sort String || Store the order of char in a hashtable <br> Sort the string based on the order
 |661 Image Smoother || check all dir cnt/all
 |645 Set Mismatch || if i not in d = missing <br> if d[i] == 2 = repeat
+|622 Design Circular Queue || array| rear = (front + size) % capacity <br> front = (front + 1) % capacity
+|295 Find Median from Data Stream |[cpp](code/295.cpp)| small pq, larget pq
 
 ## Two Pointer
 
@@ -95,11 +98,12 @@
 |300 Longest Increasing Subsequence |[py](code/300.py)| (1) if x is larger than all tails, append it, increase the size by 1 <br> (2) if tails[i-1] < x <= tails[i], update tails[i]
 |354 Russian Doll Envelopes|| (1) Sort the array. Ascend on width and descend on height if width are same. <br> (2) Find the longest increasing subsequence based on height
 |240 Search a 2D Matrix II || start from left-bottom <br> if (matrix[x][y] > target) --x <br> else if (matrix[x][y] < target) ++y
+|658 Find K Closest Elements |[cpp](code/658.cpp)| if (x - arr[mid] > arr[mid + k] - x) left = mid + 1 <br> else: right = mid
 
 ## Binary Tree
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
-|298	Binary Tree Longest Consecutive Sequence |[py](code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br>
+|298	Binary Tree Longest Consecutive Sequence |[py](code/298.py) | if root.val == expect: <br> curLen+1 <br> else: <br> curLen = 1 <br> dfs(root.left,expect+1,curLen) <br> | max on self means seq
 |236 Lowest Common Ancestor of a Binary Tree |[py](code/236.py)| p dict, q dict and set | if p or q: return <br> if left and right: return root
 |235 Lowest Common Ancestor of a Binary Search Tree || search the tree base on p.val q.val <br> move left or right base on condition
 |98 Validate Binary Search Tree || pass limit on child nodes
@@ -110,6 +114,9 @@
 |662 Maximum Width of Binary Tree || left : right * 2 <br> right: right * 2 + 1 <br> idx - level[h] + 1
 |124 Binary Tree Maximum Path Sum || left = max(helper(node., res), 0) <br> right = max(helper(node.right, res), 0) <br> max(res,left + right + root.val)
 |105 Construct Binary Tree from Preorder and Inorder Traversal || pLeft + i - iLeft
+|543 Diameter of Binary Tree | | self.diameter = max(self.diameter,left+right)
+|652 Find Duplicate Subtrees || post order + hashmap
+
 
 
 ## BFS
