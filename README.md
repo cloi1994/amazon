@@ -66,6 +66,7 @@
 |645 Set Mismatch || if i not in d = missing <br> if d[i] == 2 = repeat
 |622 Design Circular Queue || array| rear = (front + size) % capacity <br> front = (front + 1) % capacity
 |295 Find Median from Data Stream |[cpp](code/295.cpp)| small pq, larget pq
+|198 House Robber || max(num[i] + dp[i - 2], dp[i - 1]) | search two times with head no tail or no head tail
 
 ## Two Pointer
 
@@ -76,6 +77,8 @@
 |42 Trapping Rain Water |[py](code/42.py)| arr : 1 2 3 <br> left : 1 2 3 <br> right : 3 3 3  | if height[i] < height[j]: left ++ <br> else right--
 |15 3Sum || sorted, for i, while j < k
 |454 4Sum II || hashmap = A+B, 2 for loop C+D similar to 2Sum
+|287 Find the Duplicate Number ||slow = 0, fast = 0, t = 0 | slow = nums[slow], fast = nums[nums[fast]]
+
 
 ## Sliding Window
 | Title  | Solution | S1 | S2
@@ -116,7 +119,8 @@
 |105 Construct Binary Tree from Preorder and Inorder Traversal || pLeft + i - iLeft
 |543 Diameter of Binary Tree | | self.diameter = max(self.diameter,left+right)
 |652 Find Duplicate Subtrees || post order + hashmap
-
+|114 Flatten Binary Tree to Linked List || post order, set right to prev
+|285 Inorder Successor in BST || Iterative inorder
 
 
 ## BFS
@@ -132,7 +136,9 @@
 |529 Minesweeper || dfs count num of near mine <br> if 0: search 4 way <else> stop and mark num
 |508 Most Frequent Subtree Sum || post order + hash
 |606 Construct String from Binary Tree| | preorder <br> catch : str(t.val) + '(' + self.tree2str(t.left)  + ')'
-
+|733 Flood Fill || dfs on same color replace to new
+|261 Graph Valid Tree || dfs with parent | if parent continue, find cycle and len(visited) == n  
+  
 ## Backtacking
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
