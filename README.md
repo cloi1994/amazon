@@ -25,6 +25,7 @@
 |146	LRU Cache |[py](code/146.py) | Hash + DLL
 |460 LFU Cache |------|-----|----------
 |13	Roman to Integer |[py](code/13.py) | minus if num[cur-1] < num[cur]
+|12 Integer to Roman | | Greedy while (num >= val[i]): <br> nums[i] -= val[i] <br> res+= str[i]
 |48 Rotate Image |[py](code/48.py)| Reverse First <br> for ... i = 0, for ... j = i+1 swap
 |297 Serialize and Deserialize Binary Tree || save inorder <br> None = #
 |5 Longest Palindromic Substring |[cpp](code/5.cpp)| (i,i) , (i+1,i) expand from center | dp[i, j] = 1  if i == j <br> s[i] == s[j] && (i - j < 2 || dp[j + 1][i - 1]) <br> aba <br> a,0 - c,2 - b = 0+1,2-1
@@ -44,7 +45,9 @@
 |224 Basic Calculator || num,sign,res <br> if '(' push(res),push(sign)
 |227 Basic Calculator II | [cpp](code/227.cpp| op='+',res = 0, curRes = 0, num = 0 | if (c == '+' || c == '-' || i == n - 1): <br>  res += curRes <br> curRes = 0
 |150 Evaluate Reverse Polish Notation || stack.append(), isOp: pop 2 times
-|coin change || dp[i] = min(dp[i], dp[i - coins[j]] + 1)
+|322 coin change || dp[i] = min(dp[i], dp[i - coins[j]] + 1)
+|55 Jump Game || reach = max(reach, i + nums[i]) 
+
 ## Easy
 
 | Title  | Solution  | S1 | S2
@@ -121,14 +124,15 @@
 |652 Find Duplicate Subtrees || post order + hashmap
 |114 Flatten Binary Tree to Linked List || post order, set right to prev
 |285 Inorder Successor in BST || Iterative inorder
-
+|230 Kth Smallest Element in a BST || k-- | second minmium, first, second = max 
 
 ## BFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
 |675 Cut Off Trees for Golf Event |[py](code/675.py) | PQ + BFS
 |127 Word Ladder |[py](code/127.py)| BFS to replace each word <br> remove word when seen
-
+|785 Is Graph Bipartite |[cpp](code/785.py) | init color, if negibor is same color return false <br> else set negibor to diff color 
+|
 ## DFS
 | Title  | Solution | S1 | S2
 |-------------|:-----:| :-----: | :-----: |
