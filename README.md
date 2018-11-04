@@ -82,7 +82,7 @@
 |15 3Sum || sorted, for i, while j < k
 |454 4Sum II || hashmap = A+B, 2 for loop C+D similar to 2Sum
 |287 Find the Duplicate Number ||slow = 0, fast = 0, t = 0 | slow = nums[slow], fast = nums[nums[fast]]
-
+|325 Maximum Size Subarray Sum Equals k | |  best = max(best,i - dic[summ-k])
 
 ## Sliding Window
 | Title  | Solution | S1 | S2
