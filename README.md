@@ -70,6 +70,7 @@
 |622 Design Circular Queue || array| rear = (front + size) % capacity <br> front = (front + 1) % capacity
 |295 Find Median from Data Stream |[cpp](code/295.cpp)| small pq, larget pq
 |198 House Robber || max(num[i] + dp[i - 2], dp[i - 1]) | search two times with head no tail or no head tail
+|79 Largest Number || to_string(a) + to_string(b) > to_string(b) + to_string(a)
 
 ## Two Pointer
 
