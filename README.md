@@ -171,3 +171,10 @@
 |682 Baseball Game | | follow rules
 |739 Daily Temperatures | | Descending Stack <br> while (!st.empty() && temperatures[i] > temperatures[st.top()]) | t = s.pop(0)<br>res[t] = i - t
 
+## Greedy
+| Title  | Solution | S1 | S2
+|-------------|:-----:| :-----: | :-----: |
+|252 Meeting Rooms | | sort, check false
+|253 Meeting Rooms II || sort, pq ,if (!q.empty() && q.top() <= a.start) q.pop()
+|56 Merge Intervals || res[-1].end >= intervals[i].start <br> res[-1].end = max(res[-1].end,intervals[i].end)
+|57 Insert Interval |[py](code/57.py)| insert to newInterval.start < intervals[i].start, then do merge intervals
