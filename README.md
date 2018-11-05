@@ -127,6 +127,8 @@
 |114 Flatten Binary Tree to Linked List || post order, set right to prev
 |285 Inorder Successor in BST || Iterative inorder
 |230 Kth Smallest Element in a BST || k-- | second minmium, first, second = max 
+|783 Minimum Distance Between BST Nodes || keep pre val to compare root.val
+
 
 ## BFS
 | Title  | Solution | S1 | S2
