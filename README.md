@@ -84,6 +84,8 @@
 |454 4Sum II || hashmap = A+B, 2 for loop C+D similar to 2Sum
 |287 Find the Duplicate Number ||slow = 0, fast = 0, t = 0 | slow = nums[slow], fast = nums[nums[fast]]
 |325 Maximum Size Subarray Sum Equals k | |  best = max(best,i - dic[summ-k])
+|163 Missing Ranges || if(curr - prev > 1)
+
 
 ## Sliding Window
 | Title  | Solution | S1 | S2
@@ -156,6 +158,9 @@
 |377 Combination Sum IV || for n in nums: summ += self.dfs(nums,target-n,dp) <br> dp[target] = summ <br>  target is the identity of current status | return 0 or 1 
 |47 Permutations II|[py](code/529.py)|if i > 0 and nums[i-1] == nums[i] and not visited[i-1] == 0: continue
 |78 Subsets || same as combination
+|51 N-Queens || nqueens(n, y + 1)
+|37 Sudoku Solver ||  if (isValid(board, i , j) && solveSudokuDFS(board, i, j + 1)) return true; | m= 0 .. 3 , i/3*3+m <br> same as n
+
 
 ## Linked List
 | Title  | Solution | S1 | S2
