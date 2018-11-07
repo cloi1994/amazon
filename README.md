@@ -52,7 +52,7 @@
 |639 Decode Ways II || starts with 2, *0 = 2*dp[i-2] <br> *(1-6) = 2*dp[i-2] <br> *(7-9)=dp[i-2]  |  1*= 9*dp[i-2] <br> 2*= 9*dp[i-2] <br> (*)(*)(6+9)*dp[i-2]
 |63 Unique Paths II|| dp[0][n] = 1,dp[m,0] = 1  <br> dp[i][j] = 0 if grid[i][j] == 1 | dp[i][j] = dp[i-1][j] + dp[i][j-1] 
 |312 Burst Balloons |[cpp](code/312.cpp)| res = max(res, nums[left - 1] * nums[k] * nums[right + 1] + burst(nums, dp, left, k - 1) + burst(nums, dp, k + 1, right)) | insert 1 on front and back , left <= right
-|
+|64 Minimum Path Sum || dp[0][i] += dp[0,i-1],dp[j,0] += dp[j-1][0], dp[i][j] = min(dp[i-1][j],dp[i][j-1]) + grid[i][j] 
 
 ## Easy
 
