@@ -49,7 +49,7 @@
 |55 Jump Game || reach = max(reach, i + nums[i]) 
 |10 Regular Expression Matching || if p[j] == s[i]: dp[i][j] = dp[i-1][j-1] <br> p[j] == '.': dp[i][j] = dp[i-1][j-1] | if p[j] == '*': <br> if p[j-1] != p[i] and p[j-1] != '.':  dp[i][j] = dp[i][j-2] <br> if p[j-1] == s[i] or p[j-1] == '.': dp[i][j] =  dp[i-1][j] (multiple a) | dp[i][j-2] (empty a)
 |91 Decode Ways || starts with 2, dp[i-1] single , dp[i-2] double
-|639 Decode Ways II || starts with 2, *0 = 2*dp[i-2], *(1-6)=2*dp[i-2], *(7-9)=dp[i-2] <br>, 1*= 9*dp[i-2], 2*= 9*dp[i-2], **(6+9)*dp[i-2]
+|639 Decode Ways II || starts with 2, *0 = 2*dp[i-2] <br> *(1-6) = 2*dp[i-2] <br> *(7-9)=dp[i-2]  |  1*= 9*dp[i-2] <br> 2*= 9*dp[i-2] <br> **(6+9)*dp[i-2]
 
 
 
