@@ -34,7 +34,7 @@
 |517 Super Washing Machines |------|-------
 |121 Best Time to Buy and Sell Stock || create gain array <br> do maxiumum subarray  
 |122 Best Time to Buy and Sell Stock II || if p[i+1] > p[i] : res += p[i+1] - p[i] 
-|139 Word Break |[py](code/139.py)| dp[i] = postion can break
+|139 Word Break |[py](code/139.py)| dp[i] = postion can break, dp[j] for continuous, dp[j:i] in dict | loop over dict instead for optimize
 |151 Reverse Words in a String ||  while j >= 0 and s[j] == ' ': <br> while j >= 0 and s[j] != ' ':
 |459 Repeated Substring Pattern || if n%i and connected substirng == original <br> return true
 |532 K-diff Pairs in an Array || hm <br> if if k == 0 -> if hm[key] >= 2 : cnt +=1  <br> else: if key - k in hm: cnt+1|
@@ -49,10 +49,10 @@
 |55 Jump Game || reach = max(reach, i + nums[i]) 
 |10 Regular Expression Matching || if p[j] == s[i]: dp[i][j] = dp[i-1][j-1] <br> p[j] == '.': dp[i][j] = dp[i-1][j-1] | if p[j] == '*': <br> if p[j-1] != p[i] and p[j-1] != '.':  dp[i][j] = dp[i][j-2] <br> if p[j-1] == s[i] or p[j-1] == '.': dp[i][j] =  dp[i-1][j] (multiple a) | dp[i][j-2] (empty a)
 |91 Decode Ways || starts with 2, dp[i-1] single , dp[i-2] double
-|639 Decode Ways II || starts with 2, *0 = 2*dp[i-2] <br> *(1-6) = 2*dp[i-2] <br> *(7-9)=dp[i-2]  |  1*= 9*dp[i-2] <br> 2*= 9*dp[i-2] <br> **(6+9)*dp[i-2]
-
-
-
+|639 Decode Ways II || starts with 2, *0 = 2*dp[i-2] <br> *(1-6) = 2*dp[i-2] <br> *(7-9)=dp[i-2]  |  1*= 9*dp[i-2] <br> 2*= 9*dp[i-2] <br> (*)(*)(6+9)*dp[i-2]
+|63 Unique Paths II|| dp[0][n] = 1,dp[m,0] = 1  <br> dp[i][j] = 0 if grid[i][j] == 1 | dp[i][j] = dp[i-1][j] + dp[i][j-1] 
+|312 Burst Balloons |[cpp](code/312.cpp)| res = max(res, nums[left - 1] * nums[k] * nums[right + 1] + burst(nums, dp, left, k - 1) + burst(nums, dp, k + 1, right)) | insert 1 on front and back , left <= right
+|
 
 ## Easy
 
